@@ -1,4 +1,5 @@
 pyrogram
+telethon
 telegram
 requests
 paytmchecksum
