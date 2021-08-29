@@ -1,11 +1,11 @@
-from telegram.ext import Updater, CommandHandler, RegexHandler, MessageHandler,Filters
-from telegram import ReplyKeyboardMarkup,Bot
-import telegram.ext
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,PollAnswerHandler, ConversationHandler,CallbackQueryHandler
-from telegram import KeyboardButton
-from telegram.error import TelegramError
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove)
+from telethon.ext import Updater, CommandHandler, RegexHandler, MessageHandler,Filters
+from telethon import ReplyKeyboardMarkup,Bot
+import telethon.ext
+from telethon.ext import Updater, CommandHandler, MessageHandler, Filters,PollAnswerHandler, ConversationHandler,CallbackQueryHandler
+from telethon import KeyboardButton
+from telethon.error import TelegramError
+from telethon import InlineKeyboardButton, InlineKeyboardMarkup
+from telethon import (ReplyKeyboardMarkup, ReplyKeyboardRemove)
 import requests,json
 import os
 import requests
