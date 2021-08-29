@@ -1,4 +1,4 @@
-from telethon.ext import Updater, CommandHandler, RegexHandler, MessageHandler,Filters
+from telegram.ext import Updater, CommandHandler, RegexHandler, MessageHandler,Filters
 from telethon import ReplyKeyboardMarkup,Bot
 import telethon.ext
 from telethon.ext import Updater, CommandHandler, MessageHandler, Filters,PollAnswerHandler, ConversationHandler,CallbackQueryHandler
